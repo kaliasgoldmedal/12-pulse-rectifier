@@ -1,9 +1,9 @@
 close all
-%clear all
+clear all
 clc
 %%%%%%%%%%%%%%%%%% Simulate MDL file
-%open_system('TFBR_12_NEW')
-%out = sim('TFBR_12_NEW');
+open_system('TFBR_12_NEW')
+out = sim('TFBR_12_NEW');
 %%%%%%%%%%%%%%%%%%%%%%%%%% Upper Bridge Leg 1
 xref=-12;
 yref=0;
